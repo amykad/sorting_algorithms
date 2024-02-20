@@ -35,4 +35,9 @@ void quick_sort_hoare(int *array, size_t size);
 void merge_subarr(int *subarr, int *buff, size_t front, size_t mid,size_t back);
 void merge_sort_recursive(int *subarr, int *buff, size_t front, size_t back);
 void merge_sort(int *array, size_t size);
+void sort_deck(deck_node_t **deck);
+void sort_suit(deck_node_t **deck);
+void sort_val(deck_node_t **deck);
+void swap(deck_node_t **deck, deck_node_t *card1, deck_node_t *card2);
+int vcmp(const card_t *card1, const card_t *card2);
 #endif
